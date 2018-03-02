@@ -7,5 +7,8 @@ CapsLock & d::SendInput {Delete}
 CapsLock & '::SendInput {PgUp}
 CapsLock & /::SendInput {PgDn}
 CapsLock & p::SendInput {PrintScreen}
+CapsLock & u::Send {Volume_Up}
+CapsLock & n::Send {Volume_Down 1}
+CapsLock & q::Send {Volume_Mute 1}
 CapsLock::SendInput {Esc}
 Alt & CapsLock::CapsLock
