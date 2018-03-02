@@ -6,5 +6,6 @@ CapsLock & l::SendInput {Right}
 CapsLock & d::SendInput {Delete}
 CapsLock & '::SendInput {PgUp}
 CapsLock & /::SendInput {PgDn}
+CapsLock & p::SendInput {PrintScreen}
 CapsLock::SendInput {Esc}
 Alt & CapsLock::CapsLock
